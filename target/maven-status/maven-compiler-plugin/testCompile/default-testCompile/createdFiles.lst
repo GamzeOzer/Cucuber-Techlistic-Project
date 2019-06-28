@@ -1,0 +1,10 @@
+com/techlistic/utils/ExcelUtility.class
+com/techlistic/steps/AutomationPraticeFormSteps.class
+com/techlistic/pages/AutomationPracticeFormPage.class
+com/techlistic/steps/Hooks.class
+com/techlistic/runners/TestRunner.class
+com/techlistic/utils/Constants.class
+com/techlistic/utils/ConfigsReader.class
+com/techlistic/pages/HomePage.class
+com/techlistic/utils/BaseClass.class
+com/techlistic/utils/CommonMethods.class

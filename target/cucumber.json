@@ -1,0 +1,176 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3351603028,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click Automation Practice Form link",
+            "match": {
+              "location": "AutomationPraticeFormSteps.i_click_Automation_Practice_Form_link()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2016939881,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I verify the title of the new page",
+            "match": {
+              "location": "AutomationPraticeFormSteps.i_verify_the_title_of_the_new_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-06-25T22:41:23.001Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4727658212,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start(Scenario)"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Replace variables with dataTable",
+        "description": "",
+        "id": "practice-on-demo-webpage;replace-variables-with-datatable",
+        "after": [
+          {
+            "result": {
+              "duration": 204812883,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2182218894,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I enter five different set of credentials to the form by using map and datatable",
+            "match": {
+              "location": "AutomationPraticeFormSteps.i_enter_five_different_set_of_credentials_to_the_form_by_using_map_and_datatable(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "FirstName",
+                  "LastName",
+                  "Date"
+                ]
+              },
+              {
+                "cells": [
+                  "Mustafa",
+                  "Ozkan",
+                  "07 June 2019"
+                ]
+              },
+              {
+                "cells": [
+                  "Gamze",
+                  "Ozer",
+                  "08 June 2019"
+                ]
+              },
+              {
+                "cells": [
+                  "Halime",
+                  "Temiz",
+                  "09 June 2019"
+                ]
+              },
+              {
+                "cells": [
+                  "Fatime",
+                  "Alaparmak",
+                  "10 June 2019"
+                ]
+              },
+              {
+                "cells": [
+                  "Hilal",
+                  "Kalyoncu",
+                  "11 June 2019"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 446372523,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I select gender, years of experinece and profession",
+            "match": {
+              "location": "AutomationPraticeFormSteps.i_select_gender_yeras_of_experinece_and_profession()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 330638411,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I select Automation Tools and Continents",
+            "match": {
+              "location": "AutomationPraticeFormSteps.i_select_Automation_Tools_and_Continents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68356729,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I click on button",
+            "match": {
+              "location": "AutomationPraticeFormSteps.i_click_on_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dataTable"
+          }
+        ]
+      }
+    ],
+    "name": "Practice on Demo Webpage",
+    "description": "",
+    "id": "practice-on-demo-webpage",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/PracticeOnDemoWebPage.feature",
+    "tags": []
+  }
+]
